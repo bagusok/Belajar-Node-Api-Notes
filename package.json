@@ -1,0 +1,25 @@
+{
+  "name": "catatan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.3.4"
+  }
+}
